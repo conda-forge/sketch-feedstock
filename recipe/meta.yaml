@@ -1,5 +1,5 @@
 {% set name = "sketch" %}
-{% set version = "0.4.2" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sketch-{{ version }}.tar.gz
-  sha256: e8c21f11f3a8d503c4ffa57e77c88aa1733393ad57a1f3d01dcf600a62ca3c38
+  sha256: cdc4bf43b251e2cad39958b3d362085432ec24b1892a9c840b923a7cc4f99997
 
 build:
   noarch: python
